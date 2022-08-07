@@ -8,13 +8,25 @@
 
 .main {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.box-center {
-  align-self: center;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-big {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  position: relative;
 }
 
-.box-end {
-  align-self: flex-end;
+.box-position {
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
