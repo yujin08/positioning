@@ -1,20 +1,17 @@
 .box {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: purple;
   color: white;
   
 }
 
-.main {
-  display: flex;
-  justify-content: space-between;
+.box-2 {
+  background-color: black;
 }
 
-.sub-main {
-  display: flex;
-}
-
-.mr-5 {
-  margin-right: 5px;
+.box-position {
+  position: relative;
+  left: 50px;
+  top: -50px;
 }
