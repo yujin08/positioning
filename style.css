@@ -8,13 +8,13 @@
 
 .main {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.sub-main {
-  display: flex;
+.box-center {
+  align-self: center;
 }
 
-.mr-5 {
-  margin-right: 5px;
+.box-end {
+  align-self: flex-end;
 }
