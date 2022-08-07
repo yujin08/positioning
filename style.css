@@ -8,13 +8,25 @@
 
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.sub-main {
-  display: flex;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-big {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  position: relative;
 }
 
-.mr-5 {
-  margin-right: 5px;
+.box-position {
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
